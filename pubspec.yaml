@@ -1,0 +1,28 @@
+name: portweb
+description: Portfolio Website
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  google_fonts:
+  url_launcher:
+  floating_bubbles: ^2.5.1
+  font_awesome_flutter:
+  lottie:
+  firebase_core:
+  url_strategy:
+  flutter_animate: ^4.2.0+1
+  cupertino_icons: ^1.0.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/lottie/
